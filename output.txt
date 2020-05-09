@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.2, pytest-5.4.2, py-1.8.1, pluggy-0.13.1 -- c:\users\u_rim\appdata\local\programs\python\python38-32\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\u_rim\Desktop\이우림\인터넷응용\PA-5 Poker Hands in OOP
+plugins: cov-2.8.1
+collecting ... collected 10 items
+
+test_card.py::test_PKCard_init PASSED                                    [ 10%]
+test_card.py::test_PKCard_init_exception PASSED                          [ 20%]
+test_card.py::test_PKCard_repr PASSED                                    [ 30%]
+test_card.py::test_is_flush PASSED                                       [ 40%]
+test_card.py::test_is_straight PASSED                                    [ 50%]
+test_card.py::test_find_a_kind PASSED                                    [ 60%]
+test_card.py::test_tell_hand_ranking PASSED                              [ 70%]
+test_card.py::test_winlose1 PASSED                                       [ 80%]
+test_card.py::test_winlose2 PASSED                                       [ 90%]
+test_card.py::test_winlose3 PASSED                                       [100%]
+
+----------- coverage: platform win32, python 3.8.2-final-0 -----------
+Name           Stmts   Miss  Cover
+----------------------------------
+card.py          289     94    67%
+test_card.py     100      0   100%
+----------------------------------
+TOTAL            389     94    76%
+
+
+============================= 10 passed in 0.14s ==============================
