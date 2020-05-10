@@ -1,6 +1,6 @@
 import pytest
 from card import suits, ranks, Card, PKCard, Deck
-from card import Hands
+from poker import *
 
 #PKCard 클래스
 def test_PKCard_init():
